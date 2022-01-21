@@ -1,0 +1,25 @@
+{
+    "name": "croh-vscode",
+    "displayName": "Croh - Codes Run On Humans",
+    "description": "Croh support for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "codes-run-on-humans",
+            "aliases": ["Croh", "codes-run-on-humans"],
+            "extensions": [".croh"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "codes-run-on-humans",
+            "scopeName": "source.croh",
+            "path": "./syntaxes/codes-run-on-humans.tmLanguage.json"
+        }]
+    }
+}
