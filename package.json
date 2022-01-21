@@ -14,22 +14,13 @@
         "type": "git",
         "url": "https://github.com/CodesRunOnHumans/croh-vscode.git"
     },
+    "publisher": "codes-run-on-humans",
     "contributes": {
         "languages": [{
             "id": "codes-run-on-humans",
             "aliases": ["Croh", "codes-run-on-humans"],
             "extensions": [".croh"],
             "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "codes-run-on-humans",
-            "scopeName": "source.croh",
-            "path": "./syntaxes/croh.tmLanguage.json"
-        }],
-        "iconThemes": [{
-            "id": "codes-run-on-humans",
-            "label": "Croh",
-            "path": "./fileicons/croh-icon-theme.json"
         }]
     },
     "readme": "README.md"
