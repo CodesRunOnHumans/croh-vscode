@@ -21,6 +21,11 @@
             "aliases": ["Croh", "codes-run-on-humans"],
             "extensions": [".croh"],
             "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "codes-run-on-humans",
+            "scopeName": "source.croh",
+            "path": "./syntaxes/croh.tmLanguage.json"
         }]
     },
     "readme": "README.md"
