@@ -16,10 +16,6 @@
             "extensions": [".croh"],
             "configuration": "./language-configuration.json"
         }],
-        "grammars": [{
-            "language": "codes-run-on-humans",
-            "scopeName": "source.croh",
-            "path": "./syntaxes/codes-run-on-humans.tmLanguage.json"
-        }]
+        "grammars": []
     }
 }
