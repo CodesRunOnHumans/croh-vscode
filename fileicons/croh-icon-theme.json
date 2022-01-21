@@ -1,0 +1,10 @@
+{
+    "languageIds": {
+        "codes-run-on-humans": "_croh_file"
+    },
+    "iconDefinitions": {
+        "_croh_file": {
+            "iconPath": "./images/Croh_16x.svg"
+        }
+    }
+}

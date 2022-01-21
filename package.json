@@ -3,6 +3,8 @@
     "displayName": "Croh - Codes Run On Humans",
     "description": "Croh support for Visual Studio Code",
     "version": "1.0.0",
+    "icon": "",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -16,6 +18,10 @@
             "extensions": [".croh"],
             "configuration": "./language-configuration.json"
         }],
-        "grammars": []
+        "iconThemes": [{
+            "id": "codes-run-on-humans",
+            "label": "Croh",
+            "path": "./fileicons/croh-icon-theme.json"
+        }]
     }
 }
